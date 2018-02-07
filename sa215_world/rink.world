@@ -1,0 +1,205 @@
+# Assignment 1 World
+include "map.inc"
+include "holrob.inc"
+include "holtarget.inc"
+
+# Simulation configurations
+interval_sim 1000 # simulation interval
+speedup 4 # simulation runs 4x real speed
+#paused 1
+#quit_time 0
+
+# load an environment bitmap
+floorplan (
+	bitmap "bitmaps/rink.png"
+	# Change x=210, y=210 to desired environment size
+	size [210.000 210.000 1.000]
+)
+
+# Configure the GUI window
+window (
+    size [700 720]
+    # Must change this if bitmap size changes (~window/bitmap)
+	scale 3.000 # pixel to meter scale
+)
+
+# Robot Holonomic Point Robot
+holrob (
+	name "rob0"
+	pose [-73.000 -520.000 0.000 0.000]
+	color "blue"
+)
+
+holrob (
+	name "rob1"
+	pose [-76.000 -520.000 0.000 0.000]
+	color "blue"
+)
+
+holrob (
+	name "rob2"
+	pose [-79.000 -520.000 0.000 0.000]
+	color "blue"
+)
+
+holrob (
+	name "rob3"
+	pose [-82.000 -520.000 0.000 0.000]
+	color "blue"
+)
+
+holrob (
+	name "rob4"
+	pose [-85.000 -520.000 0.000 0.000]
+	color "blue"
+)
+
+holrob (
+	name "rob5"
+	pose [-88.000 -520.000 0.000 0.000]
+	color "blue"
+)
+
+holrob (
+	name "rob6"
+	pose [-91.000 -520.000 0.000 0.000]
+	color "blue"
+)
+
+holrob (
+	name "rob7"
+	pose [-94.000 -520.000 0.000 0.000]
+	color "blue"
+)
+
+holrob (
+	name "rob8"
+	pose [-97.000 -520.000 0.000 0.000]
+	color "blue"
+)
+
+holrob (
+	name "rob9"
+	pose [-100.000 -520.000 0.000 0.000]
+	color "blue"
+)
+
+# Holonomic Point Target
+holtarget (
+	name "tgt0"
+	pose [-82.000 -530.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt1"
+	pose [-84.000 -530.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt2"
+	pose [-86.000 -530.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt3"
+	pose [-88.000 -530.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt4"
+	pose [-90.000 -530.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt5"
+	pose [-92.000 -530.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt6"
+	pose [-94.000 -530.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt7"
+	pose [-96.000 -530.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt8"
+	pose [-98.000 -530.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt9"
+	pose [-100.000 -530.000 0.000 0.000]
+	color "red"
+)
+holtarget (
+	name "tgt10"
+	pose [-82.000 -540.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt11"
+	pose [-84.000 -540.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt12"
+	pose [-86.000 -540.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt13"
+	pose [-88.000 -540.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt14"
+	pose [-90.000 -540.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt15"
+	pose [-92.000 -540.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt16"
+	pose [-94.000 -540.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt17"
+	pose [-96.000 -540.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt18"
+	pose [-98.000 -540.000 0.000 0.000]
+	color "red"
+)
+
+holtarget (
+	name "tgt19"
+	pose [-100.000 -540.000 0.000 0.000]
+	color "red"
+)
