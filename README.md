@@ -29,7 +29,7 @@ If the sensors were installed on the robots, then I would have had to run a for 
 ## Result Analysis ##
 [Demo Simulation](https://youtu.be/uP4egTjS-yw)
 
-Detailed results in results.docx.
+Detailed results in [results.docx](https://github.com/SaeedAlRahma/cooperative-robots-observing-moving-targets/blob/master/results.docx).
 
 As expected, the data collected gives best results in a smaller environment, where the robots can cover the area in relatively good speed. As the environment increased, it became increasingly difficult for the robots to find the more sparse targets. The robots have max speed of 2m/s, which is also too slow for a circle of radius 500m. 
 
